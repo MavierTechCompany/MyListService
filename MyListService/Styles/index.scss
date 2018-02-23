@@ -1,3 +1,5 @@
+$color: #57b3ff;
+
 
 * {
     box-sizing: border-box;
@@ -15,24 +17,68 @@
     #title{
         font-family: 'Titillium Web', sans-serif;
         position: fixed;
-        color: #f1f1f1;
-        top: 4rem;
-        left: 6rem;
-        font-size: 60px;   
+        color: #fff;
+        top: 20rem;
+        left: 25rem;
+        font-size: 60px;
+        /*width: 25%;
+        text-align: center;*/   
     }
     
     .content {
         position: fixed;
-        background: rgba(0, 0, 0, 0.5);
-        color: #f1f1f1;
-        top: 8rem;
-        right: 8rem;
+        bottom: 8rem;
+        right: 14rem;
         padding: 30px;
+        background: rgba(0, 0, 0, 0.5);
     }
-    
+
     .send-button{
-        position: fixed;
-        bottom: 14rem;
-        right: 8rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
+
+
+
+
+
+$color: #57b3ff;
+
+input {
+    margin: 40px 25px;
+    width: 200px;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px $color;
+    background: transparent;
+    color: darken($color, 15%);
+    &:focus, &:valid {
+      box-shadow: none;
+      outline: none;
+      background-position: 0 0;
+      &::-webkit-input-placeholder {
+        color: $color;
+        font-size: 11px;
+        transform: translateY(-20px);
+        visibility: visible !important;
+      }
+    }
+  }
+
+
+  button {
+    border: none;
+    background: $color;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    margin-left: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    &:hover { 
+      box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.5);
+    }
+  }
