@@ -1,1 +1,25 @@
-﻿<p>cos tam</p>
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/index.css" type="text/css" />
+
+<video autoplay muted loop id="myVideo">
+  <source src="~/videos/video.mov">
+  Your browser does not support HTML5 video.
+</video>
+
+<h1 id="title">
+    Wypełnij pola i wyślij
+</h1>
+
+<div class="content">
+<input type="text" class="input" placeholder="Name" />
+<input type="text" class="input" placeholder="Name" />
+</div>
+
+<div class="send-button">
+    <button>
+        Wyślij
+    </button>
+</div>
+
