@@ -10,7 +10,7 @@ $color: #57b3ff;
     background: rgba(0, 0, 0, 0.5);
 }
 
-.input{
+input{
     border: none;
     border-bottom: solid 1px $color;
     background: transparent;
@@ -37,8 +37,8 @@ button{
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ RESPONSIVE UP @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 
-@media (min-width:320px){
-    .input {
+@media (min-width:320px) and (min-height: 620px) {
+    input {
         margin: 40px 25px;
         width: 200px;
     }
@@ -50,7 +50,7 @@ button{
 }
 
 
-@media (min-width:1000px){
+@media (min-width:1000px) and (min-height: 620px) {
 
     #myVideo {
         position: fixed;
@@ -74,7 +74,7 @@ button{
     }
 }
 
-@media (min-width: 1100px){
+@media (min-width: 1100px) and (min-height: 620px) {
     #title {
         top: 17rem;
         left: 10rem;
@@ -87,7 +87,7 @@ button{
     }    
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) and (min-height: 620px) {
     #title {
         top: 17rem;
         left: 10rem;
@@ -102,8 +102,7 @@ button{
 }
 
 
-
-@media (min-width: 1520px){
+@media (min-width: 1520px) and (min-height: 620px) {
     #title{
         top: 20rem;
         left: 25rem;
@@ -119,7 +118,7 @@ button{
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ RESPONSIVE DOWN @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 
-@media screen and (max-device-width: 999px) {
+@media (max-width: 999px), (max-height: 620px) {
     html{ 
         background: linear-gradient(to right, darken($color, 40%), $color);
     }
@@ -141,17 +140,29 @@ button{
     #title{
         text-align: center;
     }
+
+    input {
+        margin: 40px 25px;
+        width: 200px;
+    }
+    
+    button {
+        width: 200px;
+        margin: 25px;
+    }    
 }
 
-@media screen and (max-device-width: 319px){
+@media (max-width: 319px) {
     .page{
         width: 90%;
     }
     input{
         margin: 10px 10%;
+        width: 80%;
     }
     button{
         margin-left: 10%;
         margin-right: 10%;
+        width: 80%;
     }
 }
