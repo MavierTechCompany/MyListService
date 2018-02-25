@@ -4,8 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyListService.Business_Logic.Repositories;
+using MyListService.Business_Logic.Repositories.DAL;
+using MyListService.Business_Logic.Repositories.Interfaces;
 
 namespace MyListService
 {
@@ -22,6 +26,11 @@ namespace MyListService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            var connection = @"Server=(LocalDb)\MSSQLLocalDB;Initial Catalog=MyList;Integrated Security=True;Trusted_Connection=True;";
+            services.AddDbContext<MyListContext>(options => options.UseSqlServer(connection));
+
+            services.AddScoped<ICarRepository, CarRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
