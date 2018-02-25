@@ -7,9 +7,9 @@ using MyListService.Business_Logic.Models;
 
 namespace MyListService.Business_Logic.Repositories.Interfaces
 {
-    public interface IThingOnListRepository
+    public interface ICarRepository
     {
-        Task<IEnumerable<ThingOnList>> GetAllAsync();
-        Task AddAsync(ThingOnList thing);
+        Task<IEnumerable<Car>> GetAllAsync();
+        Task AddAsync(Car car);
     }
 }
