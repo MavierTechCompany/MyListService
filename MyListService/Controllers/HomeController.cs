@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MyListService.Business_Logic.Models;
 using MyListService.Business_Logic.Repositories.Interfaces;
 
 namespace MyListService.Controllers
@@ -22,20 +23,20 @@ namespace MyListService.Controllers
             return await Task.FromResult(View());
         }
 
-        /* [HttpPost]
-        public async Task<IActionResult> Index()
+        [HttpPost]
+        public async Task<IActionResult> Index(Car car)
         {
-            ViewData["Message"] = "Your application description page.";
+            await _carRepository.AddAsync(car);
 
-            return View();
-        } */
+            return View("MyList");
+        }
 
-        /* [HttpGet]
-        public async Task<IActionResult> List()
+        [HttpGet]
+        public async Task<IActionResult> MyList()
         {
             var cars = await _carRepository.GetAllAsync();
 
-            return await Task.FromResult(View());
-        } */
+            return await Task.FromResult(View(cars));
+        }
     }
 }
