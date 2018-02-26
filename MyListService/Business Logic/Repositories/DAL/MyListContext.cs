@@ -13,13 +13,13 @@ namespace MyListService.Business_Logic.Repositories.DAL
             : base(options)
         { }
 
-        public DbSet<ThingOnList> ThingsOnList { get; set; }
+        public DbSet<Car> Cars { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema("MyList");
 
-            modelBuilder.Entity<ThingOnList>(x =>
+            modelBuilder.Entity<Car>(x =>
             {
                 x.Property(z => z.Id).IsRequired();
             });

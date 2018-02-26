@@ -8,22 +8,22 @@ using MyListService.Business_Logic.Repositories.DAL;
 
 namespace MyListService.Business_Logic.Repositories
 {
-    public class ThingOnListRepository : IThingOnListRepository
+    public class CarRepository : ICarRepository
     {
         private readonly MyListContext _context;
 
-        public ThingOnListRepository(MyListContext context)
+        public CarRepository(MyListContext context)
         {
             _context = context;
         }
 
-        public async Task AddAsync(ThingOnList thing)
+        public async Task AddAsync(Car car)
         {
-            await _context.ThingsOnList.AddAsync(thing);
+            await _context.Cars.AddAsync(car);
             await _context.SaveChangesAsync();
         }
 
-        public Task<IEnumerable<ThingOnList>> GetAllAsync()
-            => Task.FromResult(_context.ThingsOnList.AsEnumerable());
+        public Task<IEnumerable<Car>> GetAllAsync()
+            => Task.FromResult(_context.Cars.AsEnumerable());
     }
 }
