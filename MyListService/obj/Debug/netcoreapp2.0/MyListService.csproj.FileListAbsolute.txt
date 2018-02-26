@@ -1,13 +1,3 @@
-D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.csproj.CoreCompileInputs.cache
-D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.AssemblyInfoInputs.cache
-D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.AssemblyInfo.cs
-D:\C#\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.deps.json
-D:\C#\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.runtimeconfig.json
-D:\C#\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.runtimeconfig.dev.json
-D:\C#\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.dll
-D:\C#\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.pdb
-D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.dll
-D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.pdb
 C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.deps.json
 C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.runtimeconfig.json
 C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\bin\Debug\netcoreapp2.0\MyListService.runtimeconfig.dev.json
@@ -18,4 +8,3 @@ C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\obj\Debug\netcoreapp
 C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.AssemblyInfo.cs
 C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.dll
 C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.pdb
-D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.csprojResolveAssemblyReference.cache

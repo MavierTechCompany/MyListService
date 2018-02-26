@@ -38,7 +38,7 @@ button{
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ RESPONSIVE UP @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 
-@media (min-width:320px) and (min-height: 620px) {
+@media screen and (min-width:320px) and (min-height: 620px) {
     input {
         margin: 40px 25px;
         width: 200px;
@@ -120,7 +120,7 @@ button{
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ RESPONSIVE DOWN @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 
-@media (max-width: 999px), (max-height: 620px) {
+@media screen and (max-width: 999px), (max-height: 620px) {
     html{ 
         background: linear-gradient(to right, darken($color, 40%), $color);
     }
@@ -150,7 +150,7 @@ button{
     }    
 }
 
-@media (max-width: 319px) {
+@media screen and (max-width: 319px) {
 
     .page{
         width: 90%;

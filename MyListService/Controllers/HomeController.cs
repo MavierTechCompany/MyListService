@@ -31,12 +31,12 @@ namespace MyListService.Controllers
             return View("MyList");
         }
 
-        [HttpGet]
+        [HttpGet("mylist")]
         public async Task<IActionResult> MyList()
         {
-            var cars = await _carRepository.GetAllAsync();
+            //var cars = await _carRepository.GetAllAsync();
 
-            return await Task.FromResult(View(cars));
+            return await Task.FromResult(View());
         }
     }
 }
