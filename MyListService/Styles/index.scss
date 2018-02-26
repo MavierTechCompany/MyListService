@@ -3,7 +3,9 @@ $color: #57b3ff;
 #title{
     font-family: 'Titillium Web', sans-serif;
     color: #fff;
+    text-align: center;
 }
+
 
 .content{
     padding: 30px;
@@ -27,7 +29,6 @@ button{
     border-radius: 3px;
     color: white;
     width: 80%;
-    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
     padding: 6px;
     &:hover{ 
         background: darken($color, 15%);
@@ -65,6 +66,7 @@ button{
         top: 17rem;
         left: 8rem;
         font-size: 40px;
+        text-align: left;
     }
     
     .content {
@@ -137,10 +139,6 @@ button{
         display: none;
     }
 
-    #title{
-        text-align: center;
-    }
-
     input {
         margin: 40px 25px;
         width: 200px;
@@ -153,6 +151,7 @@ button{
 }
 
 @media (max-width: 319px) {
+
     .page{
         width: 90%;
     }
