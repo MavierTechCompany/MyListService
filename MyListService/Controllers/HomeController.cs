@@ -34,9 +34,9 @@ namespace MyListService.Controllers
         [HttpGet("mylist")]
         public async Task<IActionResult> MyList()
         {
-            //var cars = await _carRepository.GetAllAsync();
+            var cars = await _carRepository.GetAllAsync();
 
-            return await Task.FromResult(View());
+            return await Task.FromResult(View(cars));
         }
     }
 }

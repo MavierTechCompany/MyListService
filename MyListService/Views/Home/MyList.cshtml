@@ -1,5 +1,4 @@
-﻿@model MyListService.Business_Logic.Models.Car[]
-@{
+﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <link rel="stylesheet" href="~/css/mylist.css" type="text/css" />
@@ -20,30 +19,18 @@
                     <th>Rocznik</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>adasd</td>
-                    <td>cos</td>
-                    <td>aaaaaaaaaaaaaaaaaaaaaacccccccccc ccccccccccccccccccccccccaaaaaaaa</td>
-                </tr>
-                <tr>
-                    <td>dasdas</td>
-                </tr>
-                <tr>
-                    <td>dasda</td>
-                </tr>
-                <tr>
-                    <td>dsad</td>
-                </tr>
+                <tbody>             
+                @foreach (var x in Model)
+                    {<tr>
+                        <td>@x.Brand</td>
+                        <td>@x.Model</td>
+                        <td>@x.Horsepower</td>
+                        <td>@x.ProductionYear</td>                      
+                    </tr>}
                 </tbody>
-
-
             </table>
             </div>
-
-
-
-            <button class="send-button">
+            <button class="send-button" onclick="location.href='@Url.Action("Index", "Home")'" />
                 Wstecz
             </button>
         </div>
