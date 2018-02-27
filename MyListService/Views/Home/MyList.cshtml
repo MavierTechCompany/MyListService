@@ -19,7 +19,8 @@
                     <th>Rocznik</th>
                 </tr>
                 </thead>
-                <tbody>             
+                <tbody>      
+
                 @foreach (var x in Model)
                     {<tr>
                         <td>@x.Brand</td>
@@ -27,6 +28,7 @@
                         <td>@x.Horsepower</td>
                         <td>@x.ProductionYear</td>                      
                     </tr>}
+                    
                 </tbody>
             </table>
             </div>

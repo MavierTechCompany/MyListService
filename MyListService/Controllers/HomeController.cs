@@ -28,7 +28,7 @@ namespace MyListService.Controllers
         {
             await _carRepository.AddAsync(car);
 
-            return View("MyList");
+            return await Task.FromResult(RedirectToAction("MyList"));            
         }
 
         [HttpGet("mylist")]
