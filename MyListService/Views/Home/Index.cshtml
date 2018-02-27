@@ -1,4 +1,5 @@
-﻿@{
+﻿@model MyListService.Business_Logic.Models.Car
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <link rel="stylesheet" href="~/css/index.css" type="text/css" />
@@ -13,13 +14,15 @@
     </h1>
     <div class="page">
         <div class="content">
-                <input type="text" placeholder="Marka"/>
-                <input type="text" placeholder="Model" />
-                <input type="text" placeholder="Ilość koni" maxlength="4" />
-                <input type="text" placeholder="Rocznik" maxlength="4"/>
-            <button class="send-button">
-                Wyślij
-            </button>
+            <form action="../Home/Index" method="post">
+                @Html.TextBoxFor(model => model.Brand, new {@placeholder = "Marka", required="required", minlength = 1})
+                @Html.TextBoxFor(model => model.Model, new {@placeholder = "Model", required="required", minlength = 1})
+                @Html.TextBoxFor(model => model.Horsepower, new {@placeholder = "Ilość koni", maxlength = 4, minlength = 1, required="required"})
+                @Html.TextBoxFor(model => model.ProductionYear, new {@placeholder = "Rocznik", maxlength = 4, minlength = 4, required="required"})
+                <button class="send-button" type="submit">
+                    Wyślij
+                </button>
+            </form>
         </div>
     </div>
 </div>

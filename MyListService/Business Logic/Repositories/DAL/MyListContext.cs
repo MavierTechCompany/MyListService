@@ -21,7 +21,8 @@ namespace MyListService.Business_Logic.Repositories.DAL
 
             modelBuilder.Entity<Car>(x =>
             {
-                x.Property(z => z.Id).IsRequired();
+                x.HasKey(z => z.Id);
+                x.Property(z => z.Id).ValueGeneratedOnAdd();
             });
 
             base.OnModelCreating(modelBuilder);
