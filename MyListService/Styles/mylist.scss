@@ -10,7 +10,7 @@ background: linear-gradient(to right, darken($color, 40%), $color);
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 70%;
+    width: 60%;
     padding-bottom: 30px;
 }
 
@@ -33,9 +33,23 @@ background: linear-gradient(to right, darken($color, 40%), $color);
 
 table{
     font-family: 'Titillium Web', sans-serif;    
-    /*display: block;*/
     color: #fff;
+    text-align: center;
 }
+thead tr{
+    background-color: rgba(87, 179, 255, 0.5);
+}
+tbody td{
+    padding: 0 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(87, 179, 255, 0.1);
+  }
+  
+tbody tr:nth-child(even) {
+    background-color: rgba(87, 179, 255, 0.2);
+} 
 
 button{
     margin: 2rem 0;
@@ -62,15 +76,8 @@ button{
 }
 
 
-@media (min-width: 600px){
-   
-    table{
-        display: table;
-    }
-}
 
-
-@media (max-width: 599px){
+@media (max-width: 900px){
     .page{
         width: 80%;
     }

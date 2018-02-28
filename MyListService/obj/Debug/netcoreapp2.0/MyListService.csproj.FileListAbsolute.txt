@@ -19,3 +19,4 @@ D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.A
 D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.dll
 D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.pdb
 D:\C#\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.csprojResolveAssemblyReference.cache
+C:\Users\ptybu\Documents\GitHub\MyListService\MyListService\obj\Debug\netcoreapp2.0\MyListService.csprojResolveAssemblyReference.cache
