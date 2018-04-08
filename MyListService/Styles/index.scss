@@ -18,7 +18,7 @@ input{
     background: transparent;
     color: darken($color, 15%);
     display: block;
-    width: 80%;    
+    width: 80%;
     padding: 10px 0;
 }
 
@@ -30,7 +30,7 @@ button{
     color: white;
     width: 80%;
     padding: 6px;
-    &:hover{ 
+    &:hover{
         background: darken($color, 15%);
     }
 }
@@ -57,7 +57,7 @@ button{
         position: fixed;
         left: 0;
         bottom: 0;
-        min-width: 100%; 
+        min-width: 100%;
         min-height: 100%;
     }
     
@@ -86,7 +86,7 @@ button{
     .content {
         bottom: 6rem;
         right: 9rem;
-    }    
+    }
 }
 
 @media (min-width: 1200px) and (min-height: 620px) {
@@ -108,7 +108,7 @@ button{
     #title{
         top: 20rem;
         left: 25rem;
-        font-size: 60px; 
+        font-size: 60px;
     }
 
     .content {
@@ -121,21 +121,21 @@ button{
 
 
 @media screen and (max-width: 999px), (max-height: 620px) {
-    html{ 
+    html{
         background: linear-gradient(to right, darken($color, 40%), $color);
     }
 
     .page{
-        position: absolute; 
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto; 
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
         width: 300px;
         padding-bottom: 30px;
     }
 
-    #myVideo { 
+    #myVideo {
         display: none;
     }
 
@@ -147,7 +147,7 @@ button{
     button {
         width: 200px;
         margin: 25px;
-    }    
+    }
 }
 
 @media screen and (max-width: 319px) {
