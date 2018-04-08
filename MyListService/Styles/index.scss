@@ -1,16 +1,4 @@
-$color: #57b3ff;
-
-#title{
-    font-family: 'Titillium Web', sans-serif;
-    color: #fff;
-    text-align: center;
-}
-
-
-.content{
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.5);
-}
+@import 'main';
 
 input{
     border: none;
@@ -147,21 +135,5 @@ button{
     button {
         width: 200px;
         margin: 25px;
-    }
-}
-
-@media screen and (max-width: 319px) {
-
-    .page{
-        width: 90%;
-    }
-    input{
-        margin: 10px 10%;
-        width: 80%;
-    }
-    button{
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
     }
 }

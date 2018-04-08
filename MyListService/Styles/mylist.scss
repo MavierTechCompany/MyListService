@@ -1,4 +1,4 @@
-$color: #57b3ff;
+@import 'main';
 
 html{
 background: linear-gradient(to right, darken($color, 40%), $color);
@@ -12,18 +12,6 @@ background: linear-gradient(to right, darken($color, 40%), $color);
     margin-right: auto;
     width: 60%;
     padding-bottom: 30px;
-}
-
-#title{
-    font-family: 'Titillium Web', sans-serif;
-    color: #fff;
-    text-align: center;
-}
-
-
-.content{
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.5);
 }
 
 .table-container{
@@ -79,21 +67,6 @@ button{
 
 @media (max-width: 900px){
     .page{
-        width: 80%;
-    }
-}
-
-@media (max-width: 319px) {
-    .page{
-        width: 90%;
-    }
-    input{
-        margin: 10px 10%;
-        width: 80%;
-    }
-    button{
-        margin-left: 10%;
-        margin-right: 10%;
         width: 80%;
     }
 }
