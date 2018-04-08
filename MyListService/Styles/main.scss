@@ -15,15 +15,26 @@ $color: #57b3ff;
     }
 }
 
-
 #title{
     font-family: 'Titillium Web', sans-serif;
     color: #fff;
     text-align: center;
 }
 
-
 .content{
     padding: 30px;
     background: rgba(0, 0, 0, 0.5);
+}
+
+button{
+    margin: 2rem 0;
+    border: none;
+    background: $color;
+    border-radius: 3px;
+    color: white;
+    width: 80%;
+    padding: 6px;
+    &:hover{
+        background: darken($color, 15%);
+    }
 }
