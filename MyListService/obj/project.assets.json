@@ -269,13 +269,13 @@
           "build/netcoreapp2.0/Microsoft.AspNetCore.All.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Antiforgery/2.0.1": {
+      "Microsoft.AspNetCore.Antiforgery/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.DataProtection": "2.0.1",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.0.1",
-          "Microsoft.AspNetCore.Http.Extensions": "2.0.1",
-          "Microsoft.AspNetCore.WebUtilities": "2.0.1",
+          "Microsoft.AspNetCore.DataProtection": "2.0.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.2",
+          "Microsoft.AspNetCore.WebUtilities": "2.0.2",
           "Microsoft.Extensions.ObjectPool": "2.0.0"
         },
         "compile": {
@@ -529,7 +529,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Cryptography.Internal/2.0.1": {
+      "Microsoft.AspNetCore.Cryptography.Internal/2.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
@@ -550,15 +550,15 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
-      "Microsoft.AspNetCore.DataProtection/2.0.1": {
+      "Microsoft.AspNetCore.DataProtection/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "2.0.1",
-          "Microsoft.AspNetCore.DataProtection.Abstractions": "2.0.1",
-          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.1",
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.0.2",
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "2.0.2",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
-          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.1",
+          "Microsoft.Extensions.Options": "2.0.1",
           "Microsoft.Win32.Registry": "4.4.0",
           "System.Security.Cryptography.Xml": "4.4.0"
         },
@@ -569,7 +569,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll": {}
         }
       },
-      "Microsoft.AspNetCore.DataProtection.Abstractions/2.0.1": {
+      "Microsoft.AspNetCore.DataProtection.Abstractions/2.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {}
@@ -670,16 +670,16 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Hosting.Abstractions/2.0.1": {
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.0.1",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.0.1",
-          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.0.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
-          "Microsoft.Extensions.Hosting.Abstractions": "2.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
@@ -688,11 +688,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.1": {
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.0.1",
-          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+          "Microsoft.AspNetCore.Http.Features": "2.0.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
@@ -729,10 +729,10 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http.Abstractions/2.0.1": {
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.0.1",
+          "Microsoft.AspNetCore.Http.Features": "2.0.2",
           "System.Text.Encodings.Web": "4.4.0"
         },
         "compile": {
@@ -742,12 +742,12 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http.Extensions/2.0.1": {
+      "Microsoft.AspNetCore.Http.Extensions/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Abstractions": "2.0.1",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
-          "Microsoft.Net.Http.Headers": "2.0.1",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.1",
+          "Microsoft.Net.Http.Headers": "2.0.2",
           "System.Buffers": "4.4.0"
         },
         "compile": {
@@ -757,7 +757,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http.Features/2.0.1": {
+      "Microsoft.AspNetCore.Http.Features/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0"
@@ -1404,10 +1404,10 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.WebSockets.dll": {}
         }
       },
-      "Microsoft.AspNetCore.WebUtilities/2.0.1": {
+      "Microsoft.AspNetCore.WebUtilities/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Http.Headers": "2.0.1",
+          "Microsoft.Net.Http.Headers": "2.0.2",
           "System.Text.Encodings.Web": "4.4.0"
         },
         "compile": {
@@ -1827,7 +1827,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0"
@@ -2008,7 +2008,7 @@
           "lib/netcoreapp2.0/Microsoft.Extensions.DiagnosticAdapter.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0"
@@ -2066,7 +2066,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/2.0.1": {
+      "Microsoft.Extensions.Hosting.Abstractions/2.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
@@ -2142,7 +2142,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/2.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -2240,7 +2240,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
         }
       },
-      "Microsoft.Extensions.Options/2.0.0": {
+      "Microsoft.Extensions.Options/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
@@ -2391,7 +2391,7 @@
           "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.Net.Http.Headers/2.0.1": {
+      "Microsoft.Net.Http.Headers/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0",
@@ -4849,14 +4849,14 @@
         "microsoft.aspnetcore.all.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Antiforgery/2.0.1": {
-      "sha512": "WJdyrhYlggFY5VfFCvrcfPjc5zp3TiwbldFeDZ0xhRESEnT0icus8rq86Qyc82gMb8YNtOBGkvOv6rfXSKhFwA==",
+    "Microsoft.AspNetCore.Antiforgery/2.0.2": {
+      "sha512": "182axAPHGthEbxE9/JSTuFUr5KS8O4a4kPoTp4GaqHjXYp8ddZ3y69XDJCqavvZb+7ziMnWI9ONoBo6QRW41OA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.antiforgery/2.0.1",
+      "path": "microsoft.aspnetcore.antiforgery/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.xml",
-        "microsoft.aspnetcore.antiforgery.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.antiforgery.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.antiforgery.nuspec"
       ]
     },
@@ -5062,14 +5062,14 @@
         "microsoft.aspnetcore.cors.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/2.0.1": {
-      "sha512": "zmERIuyMufMcEOf0nLM9ApgH4VHhUnFGzmrgp2mkFL5unXfzDFg7Itdq4PsKMjrBZScGt3ayN0ct7F5ttdZ1eA==",
+    "Microsoft.AspNetCore.Cryptography.Internal/2.0.2": {
+      "sha512": "pCJyY7vC6YWY94ssKcgGzVFGsK/bk7RVEH/BxwHmc+T3t5VmXlBq7VvUmhLfk+P5Uc1l0hDIJX0ZJRLy9Sz1jg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.internal/2.0.1",
+      "path": "microsoft.aspnetcore.cryptography.internal/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "microsoft.aspnetcore.cryptography.internal.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.internal.nuspec"
       ]
     },
@@ -5084,25 +5084,25 @@
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.DataProtection/2.0.1": {
-      "sha512": "wQbnO+4xEalM/80V27UqAoRe0Hxo13W2lNNnJ3816zwDv1404tiLwE7YLPM68b6H+QYOaqvQFGqKkj4FBrN4mw==",
+    "Microsoft.AspNetCore.DataProtection/2.0.2": {
+      "sha512": "BXVpydukX6AjcnELAZHtTNexSdGLwJ21suskAtDgQshDz/mfySm0Z/voNzQyPFF6SMzDf7iXnXpEBMZchL18Rg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.dataprotection/2.0.1",
+      "path": "microsoft.aspnetcore.dataprotection/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.xml",
-        "microsoft.aspnetcore.dataprotection.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.dataprotection.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.dataprotection.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.DataProtection.Abstractions/2.0.1": {
-      "sha512": "2sXEwqRIdQsbdfuGr0G5N0G+No2ormNyAkAudtVgoFzbjdf6zbCtbLK9skoNb4bg3/ZyE0qa1iOJELfEM4GUjA==",
+    "Microsoft.AspNetCore.DataProtection.Abstractions/2.0.2": {
+      "sha512": "Q4eEkEE527CR1qzfyVeTGDVL3mss2D0VKSMWJCwhzxVmSDFy3zyXaJfCDu39GnExAVM9gLKzkoU6KoJGu3vyAg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.dataprotection.abstractions/2.0.1",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
-        "microsoft.aspnetcore.dataprotection.abstractions.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.dataprotection.abstractions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.dataprotection.abstractions.nuspec"
       ]
     },
@@ -5172,25 +5172,25 @@
         "microsoft.aspnetcore.hosting.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Hosting.Abstractions/2.0.1": {
-      "sha512": "1/Pifm1al6wA12UkAGpro2vsF31oF8Zw2ZCi9PphxTFGreTsJbqPzd39YcTlw3Knb9n/8F9/lTZ3l1m2RjWGXg==",
+    "Microsoft.AspNetCore.Hosting.Abstractions/2.0.2": {
+      "sha512": "358NTTCWJWpDKno3S85BU0hjxWQ8EzsyjZ5OSMi2XpQ9SrYwzTq6tlXSpVS3cV2RJ2Jx9lXc8uSXFwrOVyUieQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.hosting.abstractions/2.0.1",
+      "path": "microsoft.aspnetcore.hosting.abstractions/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.xml",
-        "microsoft.aspnetcore.hosting.abstractions.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.abstractions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.hosting.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.1": {
-      "sha512": "uVOdxjpxJdwR5C3RdByht/cm9FwyqeTEm58NnPwOxMAUPE9nqbXdVnq1Hff2VjtSlvVtPVT0NiJjHM6pDkEeKA==",
+    "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.2": {
+      "sha512": "tvz7D661JTyJXRxWLqOSH0s1zF9bLviZd14aA8poR+srvldS0gg1j62e7SaM5LQrUn+Z4dPwJqBtLXZDj5PtYw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.hosting.server.abstractions/2.0.1",
+      "path": "microsoft.aspnetcore.hosting.server.abstractions/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
-        "microsoft.aspnetcore.hosting.server.abstractions.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.server.abstractions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
       ]
     },
@@ -5216,36 +5216,36 @@
         "microsoft.aspnetcore.http.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Abstractions/2.0.1": {
-      "sha512": "i3mGpHEGnMq/x9eDxdWVP4e+VdPD8DuhdVYR4sH0wxWiM6oa0tNAhwDGoOrDop548PSwLM8Qs7DGPvrZqIqjmQ==",
+    "Microsoft.AspNetCore.Http.Abstractions/2.0.2": {
+      "sha512": "yQM9JzPAExsxTqvJBBr3yC+6XyOETi2T/eOOBjrOOnYgQOO+7M7J8VvAW0wQID9zh7QqWO6kh3BGCT/aqvydtg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.abstractions/2.0.1",
+      "path": "microsoft.aspnetcore.http.abstractions/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "microsoft.aspnetcore.http.abstractions.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.http.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Extensions/2.0.1": {
-      "sha512": "iG6FtbPQI3AOb3LskrY23AUiaZUGSfXWxMf1cJh9lB/h309qiMTPM6Du4stGwwSvw3yR2EKNaV+O4aZWmuvfog==",
+    "Microsoft.AspNetCore.Http.Extensions/2.0.2": {
+      "sha512": "z9uJ6w3BnhjWZZW+i5rVCqKIVLmngLP1AutfOJXJKtXKjAOBqWSTBgySGROqzWkPuDXot1dHVP7NAMnhtloIiQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.extensions/2.0.1",
+      "path": "microsoft.aspnetcore.http.extensions/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.xml",
-        "microsoft.aspnetcore.http.extensions.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.http.extensions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.http.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Features/2.0.1": {
-      "sha512": "J9JvFF7gC2SDJTV/4XWXQaKX4zdjR2ixlGy/KUD7Og+dkeHleD7f8+wtRUthuQV1yCU3t/gz/IrmbpmQj+Tlzg==",
+    "Microsoft.AspNetCore.Http.Features/2.0.2": {
+      "sha512": "1U5fPSOtIq+cPuqJTjN+EFN3dWn4ptSjybd8minSbyhy0oXr8ujYla86kb9kM3rddUBgrGCyTp/hf0/tMZab+g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.features/2.0.1",
+      "path": "microsoft.aspnetcore.http.features/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
@@ -5742,14 +5742,14 @@
         "microsoft.aspnetcore.websockets.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.WebUtilities/2.0.1": {
-      "sha512": "shzRZs574ir2Im5hJBSKnLlNbf8SKA2d5Mkcto5fv6LUcYqu0ravmVHfuRAqnAeo2Z0GpcpFW2DKmNbFjvzWRg==",
+    "Microsoft.AspNetCore.WebUtilities/2.0.2": {
+      "sha512": "dvn80+p1AIQKOfJ+VrOhVMUktWRvJs7Zb+UapZGBNSyrCzTsYiXbb9C7Mzw+nGj5UevnLNFcWWc7BUlLMD2qpw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.webutilities/2.0.1",
+      "path": "microsoft.aspnetcore.webutilities/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.xml",
-        "microsoft.aspnetcore.webutilities.2.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.webutilities.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
@@ -6214,14 +6214,14 @@
         "microsoft.extensions.configuration.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
-      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.1": {
+      "sha512": "stGq1c136UUYOsgQuJ5fjiygqZhgt6Kj0pm4iL0qq1MICNgEKTJ4tnbXLkZfrDHDz+olsT2VY9cVv2yshg+m+A==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.2.0.1.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
@@ -6374,14 +6374,14 @@
         "microsoft.extensions.diagnosticadapter.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
-      "sha512": "4Nhk1K/PE+JSXnakteeJdj1jpi5mfth9IJ1aQ7MKqArQ08M5AVJ/6TMp3gYuStVOnjuKfr3JNAP5LhOQOkjKUQ==",
+    "Microsoft.Extensions.FileProviders.Abstractions/2.0.1": {
+      "sha512": "Gzc5yXvwIrKpdti0Ev4jC0inVrGZpI86eLZorMVRqAPXowR8JDRbcHjhmID2EqA4rdhL/IsfD42+4upKpHULDw==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/2.0.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.2.0.1.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
@@ -6429,14 +6429,14 @@
         "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/2.0.1": {
-      "sha512": "A43O0JzdTE+u5t2pFeraN+3fjlV6jcX3Ra5wIscCX1cM2RHDoOLDQmoDpvDti0ct5TsBEDHVTycbyFqtu0fm+Q==",
+    "Microsoft.Extensions.Hosting.Abstractions/2.0.2": {
+      "sha512": "gs+TNXCW05ujojZlQj2i9Fj00IAhXrgLZtgGM0XxoSoffgCGfGh7jX4kB/dnaot3xVdw84L1nE98bwQN7+kK8A==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/2.0.1",
+      "path": "microsoft.extensions.hosting.abstractions/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.2.0.1.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.2.0.2.nupkg.sha512",
         "microsoft.extensions.hosting.abstractions.nuspec"
       ]
     },
@@ -6495,14 +6495,14 @@
         "microsoft.extensions.logging.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
-      "sha512": "6ZCllUYGFukkymSTx3Yr0G/ajRxoNJp7/FqSxSB4fGISST54ifBhgu4Nc0ItGi3i6DqwuNd8SUyObmiC++AO2Q==",
+    "Microsoft.Extensions.Logging.Abstractions/2.0.1": {
+      "sha512": "DzCKlMdXOysXFDBXgNnxFlpSj5AOdMkUqKEjKT1n+japTxhQ3e3MaGODZGtbIj9ezykRs9oEBGmdSHHfh4oNVA==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/2.0.0",
+      "path": "microsoft.extensions.logging.abstractions/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.2.0.1.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
@@ -6583,14 +6583,14 @@
         "microsoft.extensions.objectpool.nuspec"
       ]
     },
-    "Microsoft.Extensions.Options/2.0.0": {
-      "sha512": "sAKBgjl2gWsECBLLR9K54T7/uZaP2n9GhMYHay/oOLfvpvX0+iNAlQ2NJgVE352C9Fs5CDV3VbNTK8T2aNKQFA==",
+    "Microsoft.Extensions.Options/2.0.1": {
+      "sha512": "gxo2Bgg4D6+uyQz1Wdj1FAcBD3870+t37YjplyQXmjLzPWaoU89AIg3AXBXw4fR9CCdWLputZBLm3YaBx+oDFQ==",
       "type": "package",
-      "path": "microsoft.extensions.options/2.0.0",
+      "path": "microsoft.extensions.options/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.2.0.0.nupkg.sha512",
+        "microsoft.extensions.options.2.0.1.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
       ]
     },
@@ -6926,14 +6926,14 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.Net.Http.Headers/2.0.1": {
-      "sha512": "A61ddihPbPy9764AtCysy73oj/PA/9hsv21mXLX5QJYp9lkeyygTufTSGUmh9hz/SiZKy5GBreSlgD2Tm2ab9w==",
+    "Microsoft.Net.Http.Headers/2.0.2": {
+      "sha512": "hNhJU+Sd7Ws/yrBnakUWKWMyGiDUJE5lTkJfWe5xPL8YGTiL6Es07H9CcTyaYYwVlgW06uDVN0YhhH+t4EjdCw==",
       "type": "package",
-      "path": "microsoft.net.http.headers/2.0.1",
+      "path": "microsoft.net.http.headers/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll",
         "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
-        "microsoft.net.http.headers.2.0.1.nupkg.sha512",
+        "microsoft.net.http.headers.2.0.2.nupkg.sha512",
         "microsoft.net.http.headers.nuspec"
       ]
     },
@@ -12531,6 +12531,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.5",
+      "Microsoft.AspNetCore.Antiforgery >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -12586,6 +12587,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.5"
+          },
+          "Microsoft.AspNetCore.Antiforgery": {
+            "target": "Package",
+            "version": "2.0.2"
           }
         },
         "imports": [
