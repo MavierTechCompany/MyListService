@@ -14,9 +14,6 @@ namespace MyListService.Business_Logic.Models
         public int Horsepower { get; set; }
         public int ProductionYear { get; set; }
 
-        public Car()
-        {
-            
-        }
+        public Car() { }
     }
 }
