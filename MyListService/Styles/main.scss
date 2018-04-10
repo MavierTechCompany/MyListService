@@ -1,5 +1,18 @@
 $color: #57b3ff;
 
+@mixin page-background{
+    background: linear-gradient(to right, darken($color, 40%), $color);
+}
+
+@mixin page-position{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 @media (max-width: 319px) {
     .page{
         width: 90%;
