@@ -1,0 +1,11 @@
+D:\C#\GitHub\MyListService\MyListService\bin\Release\netcoreapp2.0\MyListService.deps.json
+D:\C#\GitHub\MyListService\MyListService\bin\Release\netcoreapp2.0\MyListService.runtimeconfig.json
+D:\C#\GitHub\MyListService\MyListService\bin\Release\netcoreapp2.0\MyListService.runtimeconfig.dev.json
+D:\C#\GitHub\MyListService\MyListService\bin\Release\netcoreapp2.0\MyListService.dll
+D:\C#\GitHub\MyListService\MyListService\bin\Release\netcoreapp2.0\MyListService.pdb
+D:\C#\GitHub\MyListService\MyListService\obj\Release\netcoreapp2.0\MyListService.csprojResolveAssemblyReference.cache
+D:\C#\GitHub\MyListService\MyListService\obj\Release\netcoreapp2.0\MyListService.csproj.CoreCompileInputs.cache
+D:\C#\GitHub\MyListService\MyListService\obj\Release\netcoreapp2.0\MyListService.AssemblyInfoInputs.cache
+D:\C#\GitHub\MyListService\MyListService\obj\Release\netcoreapp2.0\MyListService.AssemblyInfo.cs
+D:\C#\GitHub\MyListService\MyListService\obj\Release\netcoreapp2.0\MyListService.dll
+D:\C#\GitHub\MyListService\MyListService\obj\Release\netcoreapp2.0\MyListService.pdb
